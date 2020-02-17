@@ -22,6 +22,7 @@ class Dog
   end 
   
   def save 
+    @@all << self 
   end 
   
   attr_accessor :name 
